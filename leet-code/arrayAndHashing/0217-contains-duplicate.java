@@ -1,4 +1,7 @@
-class Solution {
+package arrayAndHashing;
+
+import java.util.*;
+class SolutioncontainsDuplicate {
     public boolean containsDuplicate(int[] nums){
         Set<Integer> set = new HashSet();
         for(int key: nums){

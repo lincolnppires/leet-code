@@ -1,4 +1,8 @@
-class Solution {
+package arrayAndHashing;
+
+import java.util.*;
+
+class SolutionisAnagram {
     public boolean isAnagram(String s, String t) {
         Map<Character, Integer> mapCount = new HashMap<>();
 

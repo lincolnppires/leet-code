@@ -1,4 +1,7 @@
-class Solution {
+package arrayAndHashing;
+
+import java.util.*;
+class SolutiongroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> ans = new HashMap<>();
 

@@ -1,4 +1,8 @@
-class Solution {
+package arrayAndHashing;
+
+import java.util.*;
+
+class SolutiontopKFrequent {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> count = new HashMap<>();
         List<Integer> bucket[] = new ArrayList[nums.length + 1];

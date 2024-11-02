@@ -1,4 +1,8 @@
-class Solution {
+package arrayAndHashing;
+
+import java.util.*;
+
+class SolutiontwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> mapRemaining = new HashMap<>();
 
