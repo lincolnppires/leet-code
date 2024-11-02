@@ -1,5 +1,4 @@
 package algorithmsAndDataStructure;
-
 import java.util.*;
 public class Stack {
     List<Integer> stack = new ArrayList<>();
